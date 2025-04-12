@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pradeep Savare | Portfolio</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="https://kit.fontawesome.com/adb20ccb3f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                 <h1 class="h1">Pradeep | Software Engineer</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark fas" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Java FullStack Developer</p>
+                <h1>Hi, I'm <span>Pradeep</span> <br>Savare From BKIT, Bhalki</h1>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="p2.jpg" alt="no">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I Recently Completed My Bachelor of Engineering (BE) in Computer Science and Engineering (CSE) with an 7.71 CGPA. <br>
+                            During my studies, I built a strong foundation in Java, Spring Boot, REST APIs, SQL, Hibernate, and gained hands-on experience with front-end technologies like HTML/CSS and JavaScript.</p>
+                    <div class="tab-titles" >
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java</span><br>
+                                Good knowledge on Constructor, OOPS Concepts, Array, String, Collections Framework, SpringBoot.</li>
+                            <li><span>MySQL</span><br> Good in Retrieving the Data from the Database, Sub-Query, Joins.</li>
+                            <li><span>Frontend Technology</span><br>HTML, CSS, JavaScript, Reactjs, Bootstrap.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Java FullStack Developer Intern (2024-25)</span><br>Intern at Kodnest code and transform, Bengalore.<br>
+                            Assisting in developing and maintaining applications using Java and Spring Boot. Working with Databases to manage data efficiently.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor of Engineering in Computer Science and Engineering<br> 2024</span><br>Bheemanna Khandre Institute Of Technology, Bhalki - CGPA : 7.71</li>
+                            <li><span>Class XII(Karnataka Board) <br>2020</span><br>Diamond PU Science College, Bhalki - Percentage : 94%</li>
+                            <li><span>Class X (STATE Board) <br>2018</span><br>Shivaji High School, Bhalki - Percentage : 83%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-file-code"></i>
+                    <h2>Java Backend</h2>
+                    <p>&#8226 Good knowledge on Method Overloading and Method Overriding. <br>
+                        &#8226 Good knowledge on Constructor. <br>
+                        &#8226 Good knowledge in OOPS Concepts. <br>
+                        &#8226 Good inwriting Polymorphism, Encapsulation, Abstraction programs. <br>
+                        &#8226 Knowing the concepts of JDBC, Collections Framework, SpringBoot, Thymeleaf</p>
+                    <a href="mycv.pdf" download>Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>MySQL Database</h2>
+                    <p>&#8226 Good in Retrieving the Data from the Database. <br>
+                        &#8226 Good knowledge on DML, DQL, DDL, DCL, TCL. <br>
+                       &#8226 Good knowledge on Sub-Query. <br>
+                       &#8226 Good knowledge on Joins.</p>
+                    <a href="mycv.pdf" download>Learn More</a>
+                </div>
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Frontend</h2>
+                    <p>&#8226 HTML and its Tags, CSS Properties, JavaScript, Reactjs, Bootstrap.</p>
+                    <a href="mycv.pdf" download>Learn More</a>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- portfolio -->
+      <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="learning.png" alt="nnn" >
+                    <div class="layer">
+                        <h3>LearnSphere: A comprehensive e-learning platform</h3>
+                        <p>LearnSphere is an advanced e-learning platform designed to facilitate seamless interaction between students and 
+                            trainers.</p>
+                        <a href="https://github.com/pradeepsavare" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="emp.jpg" alt="nnn">
+                    <div class="layer">
+                        <h3>Employee Management System using Spring Boot</h3>
+                        <p> a commonly built full-stack application that demonstrates real-world use of Java, Spring, and database technologies and including functionalities like CRUD Operations.</p>
+                        <a href="https://github.com/pradeepsavare" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="todo.jpg" alt="nnn">
+                    <div class="layer">
+                        <h3> To-Do List project built with React.js</h3>
+                        <p> To create a minimal, interactive web application that allows users to manage their daily tasks — add, mark as complete, and delete them — using React.js.</p>
+                        <a href="https://github.com/pradeepsavare" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+      </div>
+      <!-- contact -->
+      <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>pradeepsaware1@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8618-255-944</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/pradip.saware.35" target="_blank"><i class="fab fa-facebook" ></i></a>
+                        <a href="https://github.com/pradeepsavare" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/its.me.decent_"  target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/pradeepsavare86" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="mycv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message..."></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p><i class="fa-solid fa-copyright"></i> 2024-25 India | <i class="fab fa-instagram"></i> pradeepsavare_</p>
+        </div>
+      </div>
+      
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

@@ -448,16 +448,7 @@ nav .fas{
         align-items: center;
         flex-direction: column;
     }
-
-.layer h3{
-    font-weight: 200;
-    margin-bottom: 10px;
-}
-
-.layer a{
-    margin-top: 10px;
-    font-size: 10px;
-}
+    
     .copyright{
         font-size: 14px;
     }
